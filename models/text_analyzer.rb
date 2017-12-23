@@ -19,4 +19,9 @@ class TextAnalyzer
     text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
   end
 
+  def most_used_letter
+    s1 = text.gsub(/[^a-z]/, '')
+    arr = s1.split('')
+  end
+
 end
