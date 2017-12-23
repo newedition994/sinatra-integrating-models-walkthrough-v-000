@@ -7,7 +7,7 @@ class TextAnalyzer
   end
 
   def count_of_words
-
+    words = text.split(" ")
   end
 
 end
