@@ -23,6 +23,7 @@ class TextAnalyzer
     s1 = text.gsub(/[^a-z]/, '')
     arr = s1.split('')
     arr1 = arr.uniq
+    arr2 = {}
   end
 
 end
