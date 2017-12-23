@@ -6,4 +6,8 @@ class TextAnalyzer
     @text = text.downcase
   end
 
+  def count_of_words
+
+  end
+
 end
